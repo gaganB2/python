@@ -8,17 +8,18 @@ class Linkedlist:
     def __init__(self):
         self.head = None
 
-def search(self, value):
-    current = self.head
-
-    while current:
-        if current.data == value:
-            return True
-
-        current = current.next
-
-    return False
-
+    def search(self, value):
+        current = self.head
+    
+        while current:
+            if current.data == value:
+                return True
+    
+            current = current.next
+    
+        return False
+    
+    
 
 
 node1 = Node(10)
